@@ -1,3 +1,7 @@
+# Assignment 3
+# Student: Lais Coletta Pereira
+# Write a program that retrieves the dataset for the "exchequer account (historical series)" from the CSO, and stores it into a file called "cso.json".
+
 import requests
 import json
 
@@ -10,9 +14,8 @@ def getAll():
     # Return the JSON response from the web service
     return response.json()
 
-# Main code block
 if __name__ == "__main__":
-    # Open a file named "cso.json" in write text mode
+    # Use open a file named "cso.json" in write text mode
     with open("cso.json", "wt") as fp:
         # Retrieve data from the web service using the 'getAll' function,
         # convert it to a JSON string, and write it to the "cso.json" file.
