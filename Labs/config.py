@@ -1,0 +1,4 @@
+config = {
+"htmltopdfkey":"WUGOC56byDrPGhm8EUhNRlArLNNTbNKPzblttQqnVMbmWfxIHyxag4x8RD45IM68",
+"githubkey":"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"
+}
