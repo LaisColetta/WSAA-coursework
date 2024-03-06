@@ -5,15 +5,14 @@
 import requests
 import json
 
-url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/JSON-stat/1.0/en"
+url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ02/JSON-stat/2.0/en"
 
+# define a function that send an HTTP GET request to the URL
 def getAll():
-    # Send an HTTP GET request to the specified URL
     response = requests.get(url)
     return response.json()
 
 if __name__ == "__main__":
-    # Use open a file named "cso.json" in write text mode
+    # open the json file, print the data from the url using the function and convert it to a json file.
     with open("cso.json", "wt") as fp:
-        # Retrieve data from the url using the 'getAll' function, convert it to a JSON string, and write it to the "cso.json" file.
         print(json.dumps(getAll()), file=fp)
