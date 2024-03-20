@@ -7,13 +7,12 @@ import requests
 from config import config as cfg
 from github import Github
 
-# Configuration
 filename = "assignment04.txt"
 apikey = cfg["githubkey"]
+
 name1 = "Andrew"
 name2 = "Lais"
 
-# GitHub API setup
 g = Github(apikey)
 repo = g.get_repo("LaisColetta/aprivateone")
 
