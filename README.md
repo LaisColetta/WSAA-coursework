@@ -1,6 +1,7 @@
 # WSAA-coursework
 #### Author: Lais Coletta Pereira 
 #### Student ID: G00411338
+#### Lecturer: Andrew Beatty 
 ----
 ### Objective
 This repository stores the Web Services and Applications module coursework as part of the Higher Diploma in Computing (Data Analytics) program at ATU College. I began the Data Representation module last year, which covered similar lectures. This is why I initially created this repository in 2023 and have continued working on it since January 2024. 
