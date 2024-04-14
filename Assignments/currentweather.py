@@ -1,8 +1,8 @@
 
 # Assignment 1
 # Student: Lais Coletta Pereira
-#References: https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/
-
+# References: https://www.geeksforgeeks.org/python-find-current-weather-of-any-city-using-openweathermap-api/
+# 
 
 import requests
 
@@ -22,7 +22,7 @@ def get_current_weather():
         temperature = data['current']['temperature_2m']
         wind_direction = data['current']['wind_direction_10m']
             
-        # Print out the current temperature and wind direction
+        # Print the current temperature and wind direction
         print("Current Temperature:", temperature)
         print("Current Wind Direction (10m):", wind_direction)
     else:
